@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author Alex Kusakin
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Magento\Sales\Model\Order\Pdf\Invoice" type="AlexKusakin\SalesPdf\Model\Order\Invoice" />
+</config>

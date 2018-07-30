@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author Alex Kusakin
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="sales_pdf">
+            <group id="invoice">
+                <field id="footer_cms_block" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Footer CMS block</label>
+                    <source_model>AlexKusakin\SalesPdf\Model\Config\Source\Block</source_model>
+                    <comment>Selected CMS block will be rendered at the end of each invoice. Block content should be plain text (no HTML allowed).</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
