@@ -4,7 +4,6 @@
     "version": "1.0.0",
     "license": "OSL-3.0",
     "require": {
-        "magento/framework": "^100.1.0",
         "magento/module-cms": "102.0.*",
         "magento/module-sales": "101.0.*"
     },
